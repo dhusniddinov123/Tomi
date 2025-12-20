@@ -1,0 +1,25 @@
+# Tomi AI Assistant - Python Dependencies
+# OFFLINE MODE - No internet required!
+
+# Core dependencies
+pyttsx3==2.90
+requests==2.31.0
+
+# Audio processing (REQUIRED for offline mode)
+PyAudio==0.2.14
+
+# Offline Speech Recognition (PRIMARY - no internet needed)
+vosk==0.3.45
+
+# Online Speech Recognition (OPTIONAL - requires internet)
+# Uncomment to enable Google Speech API as fallback
+# SpeechRecognition==3.10.1
+
+# Optional: Advanced features
+# edge-tts==6.1.9           # Alternative TTS (offline)
+# pyinstaller==6.3.0        # Create executable
+# pystray==0.19.5           # System tray icon
+# pillow==10.1.0            # Icon support
+
+# Installation:
+# pip install -r requirements.txt

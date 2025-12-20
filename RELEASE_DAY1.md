@@ -1,6 +1,7 @@
 # Tomi — Day 1 Release Notes
 
 Summary:
+
 - Implemented offline speech recognition using Vosk (`core/wake_offline.py`, `core/listen_offline.py`).
 - Added a background TTS worker to prevent pyttsx3 run-loop errors (`core/speak.py`).
 - Improved PyAudio handling and added `sounddevice` fallback for input device issues.
@@ -10,7 +11,7 @@ Summary:
 
 Suggested commit message (already used):
 
-  "Day-1: Offline Vosk, TTS worker, audio/device fixes and tuning"
+"Day-1: Offline Vosk, TTS worker, audio/device fixes and tuning"
 
 Suggested PR description / comments:
 
@@ -20,8 +21,10 @@ Suggested PR description / comments:
 - Updated `config/settings.json` with recommended defaults for Windows (16000 sample rate for Vosk, energy tuning).
 
 Notes for pushing:
+
 - The repository was initialized locally and committed. To push, ensure network access to GitHub and that your SSH key is added to your GitHub account (or use HTTPS with credentials).
 
 Contact:
+
 - GitHub: dhusniddinov123
 - Email: dostonxusniddinov123456@gmail.com
